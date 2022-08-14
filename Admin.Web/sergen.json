@@ -1,0 +1,52 @@
+{
+  "RootNamespace": "Admin",
+  "ServerTypings": {
+    "LocalTexts": true
+  },
+  "Restore": {
+    "Exclude": [
+      "/wwwroot/Scripts/serenity/Serenity.CoreLib*.*"
+    ]
+  },
+  "Connections": [
+    {
+      "Key": "souq",
+      "Tables": [
+        {
+          "Tablename": "dbo.Cart",
+          "Identifier": "Cart",
+          "Module": "souqcom",
+          "PermissionKey": "Cart"
+        },
+        {
+          "Tablename": "dbo.Category",
+          "Identifier": "Category",
+          "Module": "souqcom",
+          "PermissionKey": "Category"
+        },
+        {
+          "Tablename": "dbo.Product",
+          "Identifier": "Product",
+          "Module": "Product",
+          "PermissionKey": "Product"
+        },
+        {
+          "Tablename": "dbo.ProductImage",
+          "Identifier": "ProductImage",
+          "Module": "ProductImage",
+          "PermissionKey": "Images"
+        },
+        {
+          "Tablename": "dbo.Review",
+          "Identifier": "Review",
+          "Module": "Review",
+          "PermissionKey": "Review"
+        }
+      ]
+    }
+  ],
+  "UpgradeInfo": {
+    "InitialType": "Community",
+    "InitialVersion": "5.2.4.0"
+  }
+}

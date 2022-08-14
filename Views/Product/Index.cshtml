@@ -1,0 +1,34 @@
+﻿@model ProductVm
+Product View
+
+<div class="col-lg-6">
+    <form asp-action="Create" asp-controller="Product" method="post" role="form">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="row">
+            <div class="col form-group" style="margin-top:16px">
+                <input type="text" name="CatName" class="form-control" id="CatName" placeholder="Category Name">
+                <span asp-validation-for="CatName" class="text-danger"></span>
+
+            </div>
+            <div class="col form-group mt-3">
+                <input type="text" class="form-control" name="ProName" id="ProName" placeholder="Product Name">
+                <span asp-validation-for="ProName" class="text-danger"></span>
+
+            </div>
+        </div>
+        <div class="form-group mt-3">
+            <input type="text" class="form-control" name="Proprice" id="Proprice" placeholder="Price">
+        </div>
+        <div class="form-group mt-3">
+            <input type="text" class="form-control" id="ProQty" name="ProQty" placeholder="qunatity">
+        </div>
+        @*<div class="my-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
+        </div>*@
+        <div class="" style="margin-top:20px"><button class="btn btn-success" type="submit">Send Message</button></div>
+        @Html.DropDownList("Id",(SelectList)ViewBag.Catlist,"select Category")
+    </form>
+</div>

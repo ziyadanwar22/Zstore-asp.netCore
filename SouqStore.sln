@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SouqStore", "SouqStore.csproj", "{FDF19215-43F0-4CB0-9B0D-FEB504587ACA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin.Web", "..\Admin\Admin.Web\Admin.Web.csproj", "{282DA644-F7AB-4E87-813B-66970EF6BE4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDF19215-43F0-4CB0-9B0D-FEB504587ACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF19215-43F0-4CB0-9B0D-FEB504587ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF19215-43F0-4CB0-9B0D-FEB504587ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF19215-43F0-4CB0-9B0D-FEB504587ACA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{282DA644-F7AB-4E87-813B-66970EF6BE4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{282DA644-F7AB-4E87-813B-66970EF6BE4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{282DA644-F7AB-4E87-813B-66970EF6BE4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{282DA644-F7AB-4E87-813B-66970EF6BE4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {942B5B25-6FC9-48F8-9602-9B47A6BC2809}
+	EndGlobalSection
+EndGlobal
